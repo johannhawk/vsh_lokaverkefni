@@ -6,6 +6,8 @@
 	text-align: left;
 	display: flex;
 	flex-flow: row;
+	width: 100%;
+	height: 100px;
 }
 .button{
 	position: fixed;
@@ -18,7 +20,7 @@ label{
 .menu{
 	display: flex;
 	flex-flow: row;
-	font-size: 2em;
+	text-align: center;
 }
 li{
 	display: block;
@@ -27,15 +29,82 @@ li{
 	margin-left: 5px;
 	margin-right: 5px;
 	border: 1px solid black;
+	background-color: white;
 }
+li:hover{
+	background-color: lightblue;
+}
+.Heim{
+	position: fixed;
+	left: -500px;
+}
+
+
 @media screen and (min-width: 37.5em){
-	
+	.menu{
+		font-size: 20px;
+		display: flex;
+		flex-flow: row;
+	}
+	body{
+		background-color: lightgreen;
+	}
+
 }
 @media screen and (min-width: 48em){
+	.Menu{
+		display: flex;
+		flex-flow: column;
+		width: 200px;
+		height: 100%;
+		position: fixed;
+	}
+	.menu{
+		display: flex;
+		flex-flow: column;
+		font-size: 26px;
+	}
+	label{
+		display: none
+	}
+	li{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.Heim{
+		position: static;
+	}
+	body{
+		background-color: red;
+	}
 
 }
 @media screen and (min-width: 60em){
-
+	.Menu{
+		display: flex;
+		flex-flow: column;
+		width: 200px;
+		height: 100%;
+		position: fixed;
+	}
+	.menu{
+		display: flex;
+		flex-flow: column;
+		font-size: 26px;
+	}
+	label{
+		display: none
+	}
+	li{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.Heim{
+		position: static;
+	}
+	body{
+		background-color: lime;
+	}
 }
 @media screen and (min-width: 80em){
 	.Menu{
@@ -48,5 +117,18 @@ li{
 	.menu{
 		display: flex;
 		flex-flow: column;
+	}
+	label{
+		display: none
+	}
+	li{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.Heim{
+		position: static;
+	}
+	body{
+		background-color: navy;
 	}
 }
