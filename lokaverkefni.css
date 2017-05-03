@@ -47,6 +47,24 @@ li:hover{
 	body{
 		background-image: url("bak.jpg");
 	}
+	.sand{
+		margin: 0 auto;
+		width: 750px;
+		border-right: red 1px solid;
+		border-left: red 1px solid;
+		height: 2000px;
+		color: white;
+	}
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
 }
 
 
@@ -58,6 +76,25 @@ li:hover{
 	}
 	body{
 		background-image: url("bak.jpg");
+	}
+	.sand{
+		margin: 0 auto;
+		width: 750px;
+		border-right: red 1px solid;
+		border-left: red 1px solid;
+		height: 2000px;
+		color: white;
+	}
+
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
 	}
 
 }
@@ -84,6 +121,25 @@ li:hover{
 	body{
 		background-image: url("bak.jpg");
 	}
+	.sand{
+		margin: 0 auto;
+		width: 350px;
+		border-right: red 1px solid;
+		border-left: red 1px solid;
+		height: 2000px;
+		color: white;
+	}
+	
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
 
 }
 @media screen and (min-width: 60em){
@@ -109,6 +165,24 @@ li:hover{
 	body{
 		background-image: url("bak.jpg");
 	}
+	.sand{
+		margin: 0 auto;
+		width: 540px;
+		border-right: red 1px solid;
+		border-left: red 1px solid;
+		height: 2000px;
+		color: white;
+	}
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
 }
 @media screen and (min-width: 80em){
 	.Menu{
@@ -129,7 +203,22 @@ li:hover{
 	.Heim{
 		position: static;
 	}
+	.sand{
+		margin: 0 auto;
+		width: 750px;
+		border-right: red 1px solid;
+		border-left: red 1px solid;
+		height: 2000px;
+		color: white;
+	}
 	body{
 		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
 	}
 }
