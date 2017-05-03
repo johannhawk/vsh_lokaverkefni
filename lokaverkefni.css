@@ -6,16 +6,12 @@
 	text-align: left;
 	display: flex;
 	flex-flow: row;
-	width: 100%;
-	height: 100px;
+	background-color: rgba(100,100,100,0.5);
 }
 .button{
 	position: fixed;
 	left: -20px;
 	top: -20px;
-}
-label{
-	font-size: 2em;
 }
 .menu{
 	display: flex;
@@ -29,7 +25,7 @@ li{
 	margin-left: 5px;
 	margin-right: 5px;
 	border: 1px solid black;
-	background-color: white;
+	background-color: rgb(80,110,150);
 }
 li:hover{
 	background-color: lightblue;
@@ -49,7 +45,7 @@ li:hover{
 		padding: 0px;
 	}
 	body{
-		background-color: yellow;
+		background-image: url("bak.jpg");
 	}
 }
 
@@ -61,7 +57,7 @@ li:hover{
 		flex-flow: row;
 	}
 	body{
-		background-color: lightgreen;
+		background-image: url("bak.jpg");
 	}
 
 }
@@ -70,16 +66,13 @@ li:hover{
 		display: flex;
 		flex-flow: column;
 		width: 200px;
-		height: 100%;
+		height: 80%;
 		position: fixed;
 	}
 	.menu{
 		display: flex;
 		flex-flow: column;
 		font-size: 26px;
-	}
-	label{
-		display: none
 	}
 	li{
 		margin-top: 25px;
@@ -89,7 +82,7 @@ li:hover{
 		position: static;
 	}
 	body{
-		background-color: red;
+		background-image: url("bak.jpg");
 	}
 
 }
@@ -98,7 +91,7 @@ li:hover{
 		display: flex;
 		flex-flow: column;
 		width: 200px;
-		height: 100%;
+		height: 80%;
 		position: fixed;
 	}
 	.menu{
@@ -106,9 +99,6 @@ li:hover{
 		flex-flow: column;
 		font-size: 26px;
 	}
-	label{
-		display: none
-	}
 	li{
 		margin-top: 25px;
 		margin-bottom: 25px;
@@ -117,7 +107,7 @@ li:hover{
 		position: static;
 	}
 	body{
-		background-color: lime;
+		background-image: url("bak.jpg");
 	}
 }
 @media screen and (min-width: 80em){
@@ -125,15 +115,12 @@ li:hover{
 		display: flex;
 		flex-flow: column;
 		width: 250px;
-		height: 100%;
+		height: 80%;
 		position: fixed;
 	}
 	.menu{
 		display: flex;
 		flex-flow: column;
-	}
-	label{
-		display: none
 	}
 	li{
 		margin-top: 25px;
@@ -143,6 +130,6 @@ li:hover{
 		position: static;
 	}
 	body{
-		background-color: navy;
+		background-image: url("bak.jpg");
 	}
 }
