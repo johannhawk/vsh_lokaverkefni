@@ -38,6 +38,20 @@ li:hover{
 	position: fixed;
 	left: -500px;
 }
+@media screen and (min-width: 0px){
+	.menu{
+		padding: 0px;
+		font-size: 12px;
+		display: flex;
+		flex-flow: row;
+	}
+	.menu li{
+		padding: 0px;
+	}
+	body{
+		background-color: yellow;
+	}
+}
 
 
 @media screen and (min-width: 37.5em){
