@@ -1,6 +1,13 @@
 *{
 	box-sizing: border-box;
 }
+.roboto{
+	font-family: 'Roboto', sans-serif;
+
+}
+.lobster{
+	font-family: 'Lobster', cursive;
+}
 label{
   position: absolute;
   top: 0px; 
