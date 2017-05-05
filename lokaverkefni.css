@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 .Menu{
-	border: 1px solid black;
+	border: 1px dashed black;
 	text-align: left;
 	display: flex;
 	flex-flow: row;
@@ -24,7 +24,7 @@ li{
 	padding-right: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	border: 1px solid black;
+	border: 1px dashed black;
 	background-color: rgb(80,110,150);
 }
 li:hover{
@@ -33,6 +33,12 @@ li:hover{
 .Heim{
 	position: fixed;
 	left: -500px;
+}
+a:link{
+	color: orange;
+}
+a:visited{
+	color: orange;
 }
 @media screen and (min-width: 0px){
 	.menu{
@@ -50,8 +56,8 @@ li:hover{
 	.sand{
 		margin: 0 auto;
 		width: 750px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		border-right: red 1px dashed;
+		border-left: red 1px dashed;
 		height: 2000px;
 		color: white;
 	}
@@ -80,8 +86,8 @@ li:hover{
 	.sand{
 		margin: 0 auto;
 		width: 750px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		border-right: red 1px dashed;
+		border-left: red 1px dashed;
 		height: 2000px;
 		color: white;
 	}
@@ -124,8 +130,8 @@ li:hover{
 	.sand{
 		margin: 0 auto;
 		width: 350px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		border-right: red 1px dashed;
+		border-left: red 1px dashed;
 		height: 2000px;
 		color: white;
 	}
@@ -168,8 +174,8 @@ li:hover{
 	.sand{
 		margin: 0 auto;
 		width: 540px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		border-right: red 1px dashed;
+		border-left: red 1px dashed;
 		height: 2000px;
 		color: white;
 	}
@@ -206,8 +212,8 @@ li:hover{
 	.sand{
 		margin: 0 auto;
 		width: 750px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		border-right: red 1px dashed;
+		border-left: red 1px dashed;
 		height: 2000px;
 		color: white;
 	}
