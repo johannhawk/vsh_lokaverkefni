@@ -11,10 +11,9 @@
 .lobster{
 	font-family: 'Lobster', cursive;
 }
-h3{
+h2{
 	text-align: center;
 }
-
 label{
   position: absolute;
   top: 0px; 
@@ -85,6 +84,18 @@ a:visited{
 }
 .titleColor{
 	color: salmon;
+}
+.titlecolor2{
+	color: antiquewhite;
+}
+.schedule{
+	text-align: center;
+	color: beige;
+}
+.login{
+	text-align: center;
+	background: rgba(100,100,100,0.3);
+	border-radius: 100px;
 }
 @media screen and (min-width: 0px){
 	.menu{
