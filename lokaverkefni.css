@@ -11,10 +11,9 @@
 .lobster{
 	font-family: 'Lobster', cursive;
 }
-h3{
+h2{
 	text-align: center;
 }
-
 label{
   position: absolute;
   top: 0px; 
@@ -86,6 +85,20 @@ a:visited{
 .titleColor{
 	color: salmon;
 }
+.titlecolor2{
+	color: antiquewhite;
+}
+.schedule{
+	text-align: center;
+	color: beige;
+}
+.login{
+	text-align: center;
+	background: rgba(100,100,150,0.3);
+	border-radius: 100px;
+	padding: 5px;
+}
+
 @media screen and (min-width: 0px){
 	.menu{
 		padding: 0px;
@@ -102,11 +115,12 @@ a:visited{
 	.sand{
 		margin: 0 auto;
 		width: 750px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+		border-radius: 50px;
 		height: 2000px;
 		color: white;
 		margin-top: 80px;
+		background: rgba(100,100,100,0.5);
 	}
 	body{
 		background-image: url("bak.jpg");
@@ -133,8 +147,7 @@ a:visited{
 	.sand{
 		margin: 0 auto;
 		width: 750px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
 		height: 2000px;
 		color: white;
 		margin-top: 100px;
@@ -143,7 +156,6 @@ a:visited{
 	body{
 		background-image: url("bak.jpg");
 		height: 100%;
-
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -178,8 +190,7 @@ a:visited{
 	.sand{
 		margin: 0 auto;
 		width: 350px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
 		height: 2000px;
 		color: white;
 		margin-top: 0px;
@@ -188,7 +199,6 @@ a:visited{
 	body{
 		background-image: url("bak.jpg");
 		height: 100%;
-
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -223,8 +233,7 @@ a:visited{
 	.sand{
 		margin: 0 auto;
 		width: 540px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
 		height: 2000px;
 		color: white;
 		margin-top: 0px;
@@ -262,16 +271,15 @@ a:visited{
 	.sand{
 		margin: 0 auto;
 		width: 750px;
-		border-right: red 1px solid;
-		border-left: red 1px solid;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
 		height: 2000px;
 		color: white;
 		margin-top: 0px;
+		padding: 0px 100px 10px 100px;
 	}
 	body{
 		background-image: url("bak.jpg");
 		height: 100%;
-
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
